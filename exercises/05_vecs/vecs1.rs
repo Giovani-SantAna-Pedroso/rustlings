@@ -5,6 +5,8 @@ fn array_and_vec() -> ([i32; 4], Vec<i32>) {
     // Use the vector macro.
     // let v = ???;
 
+    let v: Vec<i32> = Vec::from(a);
+
     (a, v)
 }
 
